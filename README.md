@@ -1600,9 +1600,9 @@ customDns:
 - "my-custom-dns-2.company.com" 
  ``` 
 
-### Managing your custom certificates (DEPRECATED STARTING FROM V 10)
+### Managing your custom certificates (DEPRECATED STARTING FROM V 10.2.1)
 
-This procedure is deprecated starting from v 10. Use the [Managing custom PEM certificates](#managing-custom-PEM-certificates) procedure instead. If you use customized certificates, `useCustomizedCert:true`, you must create a secret containing the customized files that will replace the Server default ones in the \<workload_automation_namespace>. Customized files must have the same name as the default ones.
+This procedure is deprecated starting from v 10.2.1. Use the [Managing custom PEM certificates](#managing-custom-PEM-certificates) procedure instead. If you use customized certificates, `useCustomizedCert:true`, you must create a secret containing the customized files that will replace the Server default ones in the \<workload_automation_namespace>. Customized files must have the same name as the default ones.
 
   * TWSClientKeyStoreJKS.sth
   * TWSClientKeyStore.kdb
